@@ -75,17 +75,53 @@ Novice Web Dev Software Developer.</textarea
               <li><a href="#">YouTube Links to an external site.</a></li>
             </ul>
 
+            <table>
+              <tr>
+                <td><label for="link-title">Title</label></td>
+                <td><label for="link-url">URL</label></td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    id="link-title"
+                    type="text"
+                    placeholder="Enter title"
+                    value="YouTube"
+                  />&#x2192;
+                </td>
+                <td>
+                  <input
+                    id="link-url"
+                    type="text"
+                    placeholder="Enter URL"
+                    value="#"
+                  /><a href="#">Remove</a>
+                </td>
+              </tr>
+            </table>
+
             <button>Add another link</button>
             <br />
-            <form action="/Kanbas/Account/Profile/screen.html">
+            <form
+              action="/Kanbas/Account/Profile/screen.html"
+              style="display: inline"
+            >
               <button type="submit">Cancel</button>
             </form>
-            <form action="/Kanbas/Account/Profile/screen.html">
+            <form
+              action="/Kanbas/Account/Profile/screen.html"
+              style="display: inline"
+            >
               <button type="submit">Save Profile</button>
             </form>
+            <br />
             <button>Edit Profile</button>
-            <form action="/Kanbas/Account/Profile/screen.html">
-                <button type="submit">Cancel Editing</button>
+            <form
+              action="/Kanbas/Account/Profile/screen.html"
+              style="display: inline"
+            >
+              <button type="submit">Cancel Profile</button>
+            </form>
           </td>
         </tr>
       </tbody>
