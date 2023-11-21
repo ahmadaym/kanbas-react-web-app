@@ -55,6 +55,7 @@ a:hover {
 }
 
 .wd-account-profile-text {
+    /* margin-left: 30px; */
     font-size: 18px;
     font-weight: 500;
     color: #2D3B45;
